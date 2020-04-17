@@ -1,0 +1,6 @@
+days, hours, minutes, seconds = input("Enter your time as days hours minutes seconds: ").split()
+print ("days: ", days)
+print ("hours: ", hours)
+print ("minutes: ", minutes)
+print ("seconds: ", seconds)
+print ("Your time in seconds is ", ((int(days) * 24 * 60 * 60) + (int(hours) * 60 * 60) + (int(minutes) * 60) + int(seconds)))
